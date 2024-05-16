@@ -139,3 +139,15 @@
     font-weight:800;
     line-height: 4px;
 }
+@media (min-width: 768px) {
+    #nav-tab .nav-item {
+        display: block !important; 
+    }
+}
+
+
+@media (max-width: 767px) {
+    #nav-tab .nav-item {
+        display: none !important;
+    }
+}
