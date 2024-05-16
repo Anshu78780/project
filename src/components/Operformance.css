@@ -151,3 +151,8 @@
         display: none !important;
     }
 }
+@media (max-width: 767px) {
+    .card {
+      display: none; /* Hide cards on screens smaller than 768px */
+    }
+  }
